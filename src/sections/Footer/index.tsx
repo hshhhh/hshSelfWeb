@@ -35,7 +35,7 @@ const techs = [
 
 const Footer = () => (
   <footer className={styles.footer}>
-    <Paragraph>第三次重改个人主页成功 🙌， 使用了:</Paragraph>
+    <Paragraph>第一版个人主页缓慢开发中... 🤣，使用了:</Paragraph>
     <div className={styles.techList}>
       {techs.map((tech) => (
         <Tooltip
@@ -48,11 +48,11 @@ const Footer = () => (
         </Tooltip>
       ))}
     </div>
-    <p className={styles.record}>
+    {/* <p className={styles.record}>
       <a rel="noreferrer" target="_blank" href="https://beian.miit.gov.cn/">
         粤ICP备2021095802号
       </a>
-    </p>
+    </p> */}
   </footer>
 );
 

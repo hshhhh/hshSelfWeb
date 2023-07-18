@@ -24,6 +24,7 @@
     max-width: 1400px;
     height: 100%;
     margin: 0 auto;
+    user-select: none;
 
     .intro {
       padding-left: 28px;
@@ -33,6 +34,7 @@
         display: flex;
         align-items: center;
         white-space: nowrap;
+        user-select: none;
 
         span,
         i {
@@ -40,20 +42,17 @@
         }
       }
 
-      .tencent {
-        color: #0052d9;
+      .name {
+        font-weight: bold;
+        background: linear-gradient(to right, #ffcc00, #ff9900);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
       }
 
-      // 字节
-      .zijie {
-        font-weight: bold;
-        color: #0674f0;
-      }
-
-      // 跳动
-      .tiaodong {
-        font-weight: bold;
-        color: #06cbc4;
+      .technologyStack {
+        background: linear-gradient(to right, #9bd8ff, #00a1e0);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
       }
 
       .capcut {
