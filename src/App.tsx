@@ -4,9 +4,9 @@ import Loading from "./components/Loading";
 import Nav from "./sections/Nav";
 
 const Home = React.lazy(() => import("./sections/Home"));
-const About = React.lazy(() => import("./sections/About"));
-const Project = React.lazy(() => import("./sections/Project"));
-const Contact = React.lazy(() => import("./sections/Contact"));
+// const About = React.lazy(() => import("./sections/About"));
+// const Project = React.lazy(() => import("./sections/Project"));
+// const Contact = React.lazy(() => import("./sections/Contact"));
 const Footer = React.lazy(() => import("./sections/Footer"));
 
 const App: FC = () => (
@@ -16,9 +16,9 @@ const App: FC = () => (
 
       <main>
         <Home />
-        <About />
+        {/* <About />
         <Project />
-        <Contact />
+        <Contact /> */}
       </main>
 
       <Footer />

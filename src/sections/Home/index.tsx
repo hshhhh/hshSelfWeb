@@ -6,7 +6,7 @@ import useTyped from "../../hooks/useTyped";
 import useLottie from "../../hooks/useLottie";
 import { arrowDownLottie, sheepLottie } from "./constants";
 
-const strings = ["聊聊技术。", "吹吹水。", "打打游戏。", "唱唱歌。"];
+const strings = ["健健身。", "看看书。", "打打游戏。"];
 
 const Home: FC = () => {
   const el = useTyped(strings, { loop: true });
@@ -24,13 +24,18 @@ const Home: FC = () => {
     <section id="home" className={styles.home}>
       <Row className={styles.content}>
         <Col span={24} md={15} className={styles.intro}>
-          <p>我是海怪，</p>
           <p>
-            目前在<span className={styles.zijie}> 字节</span>
-            <span className={styles.tiaodong}>跳动</span>
-            ，主用 <span className={styles.react}> React </span>。
+            我是 <span className={styles.name}>HSH</span>🧑‍💻，
           </p>
-          <p>喜欢设计 💅，</p>
+          <p>
+            一个<span className={styles.fontend}>前端开发工程师</span>，
+          </p>
+          <p>
+            用 <span className={styles.technologyStack}>Vue/React</span> 的，
+          </p>
+          <p>
+            现居<span className={styles.shenzhen}>深圳</span> 🏙️，
+          </p>
           <p>
             偶尔
             <span className={styles.sometime} ref={el} />
