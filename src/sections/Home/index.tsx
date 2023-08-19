@@ -6,7 +6,7 @@ import useTyped from "../../hooks/useTyped";
 import useLottie from "../../hooks/useLottie";
 import { arrowDownLottie, sheepLottie } from "./constants";
 
-const strings = ["健健身。", "看看书。", "拍拍照", "打打游戏。"];
+const strings = ["健健身。", "看看书。", "拍拍照。", "打打游戏。"];
 
 const Home: FC = () => {
   const el = useTyped(strings, { loop: true });
